@@ -1,3 +1,9 @@
+html {
+    background-color: #3c3c49;
+    height: 100%;
+    width: 100%;
+}
+
 #link_bar {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -5,11 +11,18 @@
 
 .altsearch {
     margin: 0 10px 0 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.altsearch:hover {
+    text-decoration: underline;
 }
 
 #searchBar {
     display: flex;
     justify-content: center;
+    margin-top: 15%;
 
 }
 
@@ -20,8 +33,7 @@
 
 .inBar {
     width: 30%;
-    max-height: 300px;
-    height: 20%;
+    min-width: 300px;
     display: block;
     margin: auto;
 }
