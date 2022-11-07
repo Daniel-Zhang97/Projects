@@ -1,0 +1,35 @@
+#link_bar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.altsearch {
+    margin: 0 10px 0 10px;
+}
+
+#searchBar {
+    display: flex;
+    justify-content: center;
+
+}
+
+.inForm {
+    width: 100%;
+    height: 100%;
+}
+
+.inBar {
+    width: 30%;
+    max-height: 300px;
+    height: 20%;
+    display: block;
+    margin: auto;
+}
+
+.subButton {
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: gray;
+    color: aliceblue;
+}
